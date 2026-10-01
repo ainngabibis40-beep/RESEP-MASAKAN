@@ -1,0 +1,45 @@
+<!DOCTYPE1 html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ide Masakan & Cemilan Ringan</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Google (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header>
+        <div class="container">
+            <h1>🍳 Ide Masakan & Cemilan</h1>
+            <p>Temukan inspirasi resep praktis, cepat, dan lezat untuk hari ini!</p>
+            <input type="text" id="searchInput" placeholder="Cari resep (misal: pisang, telur)...">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Filter Kategori -->
+        <div class="filter-buttons">
+            <button class="btn active" onclick="filterResep('semua')">Semua</button>
+            <button class="btn" onclick="filterResep('cemilan')">Cemilan Ringan</button>
+            <button class="btn" onclick="filterResep('masakan')">Masakan Praktis</button>
+            <button class="btn" onclick="filterResep('minuman')">Minuman / Segar</button>
+        </div>
+
+        <!-- Grid Kartu Resep -->
+        <div class="recipe-grid" id="recipeGrid">
+            <!-- Data resep akan dimuat secara dinamis melalui JavaScript -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ide Masakan & Cemilan. Dibuat dengan ❤️ untuk pecinta kuliner.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+              </html>
