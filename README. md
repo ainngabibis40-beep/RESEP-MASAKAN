@@ -1,0 +1,19 @@
+# 🍳 Ide Masakan & Cemilan Ringan
+
+Sebuah platform web sederhana dan responsif yang menyajikan ide resep masakan praktis dan cemilan ringan sehari-hari.
+
+## 🌟 Fitur Utama
+- 🔍 **Pencarian Real-time:** Cari resep berdasarkan nama atau bahan baku secara langsung.
+- 🏷️ **Filter Kategori:** Saring resep berdasarkan kategori (Cemilan, Masakan, Minuman).
+- 📱 **Responsif:** Tampilan yang menyesuaikan dengan layar HP, tablet, maupun komputer.
+- ⚡ **Ringan & Cepat:** Dibuat menggunakan *Native JavaScript* tanpa *framework* eksternal.
+
+## 🚀 Teknologi yang Digunakan
+- **HTML5** – Struktur halaman web.
+- **CSS3** – Desain visual dan tata letak *Grid/Flexbox*.
+- **JavaScript (Vanilla)** – Logika manipulasi DOM, pencarian, dan *filtering*.
+
+## 📂 Cara Menjalankan Secara Lokal
+1. *Clone* repositori ini:
+   ```bash
+   git clone [https://github.com/username-anda/ide-masakan.git](https://github.com/username-anda/ide-masakan.git)
